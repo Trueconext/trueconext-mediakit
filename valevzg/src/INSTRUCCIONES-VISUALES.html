@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>📸 Instrucciones: Subir Imágenes ValeriaVZG</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif;
+            background: linear-gradient(135deg, #1a0033 0%, #0a0015 100%);
+            color: #fff;
+            padding: 20px;
+            line-height: 1.6;
+        }
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            background: rgba(255, 255, 255, 0.05);
+            border-radius: 20px;
+            padding: 40px;
+            border: 1px solid rgba(168, 85, 247, 0.3);
+        }
+        h1 {
+            color: #a855f7;
+            font-size: 2.5em;
+            margin-bottom: 30px;
+            text-align: center;
+        }
+        h2 {
+            color: #ec4899;
+            font-size: 1.8em;
+            margin: 30px 0 15px;
+            border-bottom: 2px solid #a855f7;
+            padding-bottom: 10px;
+        }
+        h3 {
+            color: #c084fc;
+            font-size: 1.4em;
+            margin: 20px 0 10px;
+        }
+        .box {
+            background: rgba(168, 85, 247, 0.1);
+            border: 2px solid #a855f7;
+            border-radius: 10px;
+            padding: 20px;
+            margin: 20px 0;
+        }
+        .warning {
+            background: rgba(236, 72, 153, 0.1);
+            border-color: #ec4899;
+        }
+        .success {
+            background: rgba(34, 197, 94, 0.1);
+            border-color: #22c55e;
+        }
+        .code {
+            background: #000;
+            color: #0f0;
+            padding: 15px;
+            border-radius: 8px;
+            font-family: 'Courier New', monospace;
+            margin: 10px 0;
+            overflow-x: auto;
+        }
+        .image-spec {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+            margin: 20px 0;
+        }
+        .image-card {
+            background: rgba(0, 0, 0, 0.3);
+            padding: 20px;
+            border-radius: 10px;
+            border: 2px solid #a855f7;
+        }
+        .image-card h4 {
+            color: #ec4899;
+            margin-bottom: 10px;
+            font-size: 1.2em;
+        }
+        .image-card ul {
+            list-style: none;
+            padding-left: 0;
+        }
+        .image-card li {
+            padding: 5px 0;
+            border-bottom: 1px solid rgba(168, 85, 247, 0.2);
+        }
+        .image-card li:last-child {
+            border-bottom: none;
+        }
+        .steps {
+            counter-reset: step-counter;
+            list-style: none;
+            padding-left: 0;
+        }
+        .steps li {
+            counter-increment: step-counter;
+            margin: 15px 0;
+            padding: 15px;
+            background: rgba(0, 0, 0, 0.3);
+            border-radius: 8px;
+            border-left: 4px solid #a855f7;
+            position: relative;
+            padding-left: 60px;
+        }
+        .steps li::before {
+            content: counter(step-counter);
+            position: absolute;
+            left: 15px;
+            top: 50%;
+            transform: translateY(-50%);
+            background: #a855f7;
+            color: #fff;
+            width: 30px;
+            height: 30px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: bold;
+        }
+        .folder-tree {
+            background: #000;
+            color: #0f0;
+            padding: 20px;
+            border-radius: 10px;
+            font-family: 'Courier New', monospace;
+            margin: 20px 0;
+        }
+        .checklist {
+            list-style: none;
+            padding-left: 0;
+        }
+        .checklist li {
+            padding: 10px;
+            margin: 5px 0;
+            background: rgba(168, 85, 247, 0.1);
+            border-radius: 5px;
+        }
+        .checklist li::before {
+            content: '☐ ';
+            color: #a855f7;
+            font-size: 1.5em;
+            margin-right: 10px;
+        }
+        @media (max-width: 768px) {
+            .image-spec {
+                grid-template-columns: 1fr;
+            }
+            .container {
+                padding: 20px;
+            }
+            h1 {
+                font-size: 2em;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>📸 Guía Visual: Subir Imágenes de ValeriaVZG</h1>
+        
+        <div class="box warning">
+            <h3>⚠️ IMPORTANTE</h3>
+            <p>Necesitas <strong>2 imágenes</strong> para que el media kit funcione correctamente. Sin ellas, se verán imágenes rotas.</p>
+        </div>
+
+        <h2>🎯 Imágenes Requeridas</h2>
+        
+        <div class="image-spec">
+            <div class="image-card">
+                <h4>1️⃣ Foto Principal</h4>
+                <ul>
+                    <li><strong>Nombre:</strong> valeria-photo.jpg</li>
+                    <li><strong>Tipo:</strong> Foto de Valeria</li>
+                    <li><strong>Formato:</strong> JPG o PNG</li>
+                    <li><strong>Tamaño:</strong> 800x1000px</li>
+                    <li><strong>Peso:</strong> Máx. 500KB</li>
+                    <li><strong>Orientación:</strong> Vertical</li>
+                </ul>
+            </div>
+            
+            <div class="image-card">
+                <h4>2️⃣ Logo</h4>
+                <ul>
+                    <li><strong>Nombre:</strong> valeria-logo.png</li>
+                    <li><strong>Tipo:</strong> Logo/firma</li>
+                    <li><strong>Formato:</strong> PNG</li>
+                    <li><strong>Tamaño:</strong> 500x100px</li>
+                    <li><strong>Peso:</strong> Máx. 100KB</li>
+                    <li><strong>Fondo:</strong> Transparente</li>
+                </ul>
+            </div>
+        </div>
+
+        <h2>📂 Estructura de Carpetas</h2>
+        
+        <div class="folder-tree">
+valevzgmediakit/          ← Carpeta raíz del proyecto
+├── public/               ← AQUÍ VAN LAS IMÁGENES ✅
+│   ├── .gitkeep
+│   ├── README.md
+│   ├── valeria-photo.jpg  ← TU FOTO
+│   └── valeria-logo.png   ← TU LOGO
+├── components/
+├── styles/
+├── App.tsx
+└── ...
+        </div>
+
+        <h2>🚀 Método 1: Subir Localmente (Antes de GitHub)</h2>
+        
+        <ol class="steps">
+            <li>Descarga el proyecto completo de Figma Make</li>
+            <li>Descomprime el archivo .zip en tu computadora</li>
+            <li>Abre la carpeta del proyecto</li>
+            <li>Busca y abre la carpeta <code>public</code></li>
+            <li>Arrastra o copia tus 2 imágenes ahí</li>
+            <li>Verifica que los nombres sean exactos</li>
+            <li>Ahora sube todo el proyecto a GitHub</li>
+        </ol>
+
+        <h2>🌐 Método 2: Subir Directamente en GitHub (Más Fácil)</h2>
+        
+        <ol class="steps">
+            <li>Ve a tu repositorio: <code>github.com/TU-USUARIO/valevzgmediakit</code></li>
+            <li>Haz clic en la carpeta <strong>public</strong></li>
+            <li>Arriba a la derecha, click en <strong>"Add file"</strong></li>
+            <li>Selecciona <strong>"Upload files"</strong></li>
+            <li>Arrastra tus 2 imágenes a la ventana</li>
+            <li>En "Commit message", escribe: <code>Add ValeriaVZG images</code></li>
+            <li>Click en <strong>"Commit changes"</strong></li>
+            <li>¡Listo! Espera 2 minutos y ejecuta <code>npm run deploy</code></li>
+        </ol>
+
+        <h2>✅ Checklist Final</h2>
+        
+        <ul class="checklist">
+            <li>La foto se llama exactamente: <code>valeria-photo.jpg</code></li>
+            <li>El logo se llama exactamente: <code>valeria-logo.png</code></li>
+            <li>Ambas están en la carpeta <code>/public/</code></li>
+            <li>La foto pesa menos de 500KB</li>
+            <li>El logo pesa menos de 100KB</li>
+            <li>El logo tiene fondo transparente (PNG)</li>
+        </ul>
+
+        <div class="box success">
+            <h3>🎉 Después de Subir</h3>
+            <p>Una vez que hayas subido las imágenes y ejecutado <code>npm run deploy</code>, tu media kit estará listo en:</p>
+            <div class="code">
+https://trueconext.com/valevzgmediakit
+            </div>
+        </div>
+
+        <h2>🛠️ Herramientas Útiles</h2>
+        
+        <div class="box">
+            <p><strong>Para optimizar imágenes:</strong></p>
+            <ul>
+                <li>TinyPNG: <a href="https://tinypng.com" target="_blank" style="color: #a855f7;">tinypng.com</a></li>
+                <li>Squoosh: <a href="https://squoosh.app" target="_blank" style="color: #a855f7;">squoosh.app</a></li>
+            </ul>
+            
+            <p style="margin-top: 15px;"><strong>Para crear/editar logo:</strong></p>
+            <ul>
+                <li>Canva: <a href="https://canva.com" target="_blank" style="color: #a855f7;">canva.com</a></li>
+                <li>Remove.bg: <a href="https://remove.bg" target="_blank" style="color: #a855f7;">remove.bg</a> (quitar fondo)</li>
+            </ul>
+        </div>
+
+        <div class="box warning">
+            <h3>🆘 ¿Necesitas Ayuda?</h3>
+            <p>Si tienes problemas o no tienes las imágenes optimizadas, envíamelas y yo las preparo. También puedo crear un logo simple si no tienes uno.</p>
+        </div>
+    </div>
+</body>
+</html>

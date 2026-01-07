@@ -1,14 +1,265 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="es">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="ValeriaVZG Media Kit - Bailarina & Creadora de Contenido" />
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="ValeriaVZG Media Kit - Bailarina & Creadora de Contenido">
     <title>ValeriaVZG - Media Kit</title>
-  </head>
-  <body>
-    <div id="root"></div>
-    <script type="module" src="/src/main.tsx"></script>
-  </body>
+    <link rel="stylesheet" href="styles.css">
+    <!-- Lucide Icons -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+<body>
+    <!-- Interactive Background -->
+    <canvas id="background-canvas"></canvas>
+
+    <!-- Language Toggle -->
+    <div class="language-toggle">
+        <button id="lang-toggle" class="lang-btn">
+            <span id="lang-icon">🇺🇸</span>
+            <span id="lang-text">EN</span>
+        </button>
+    </div>
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero">
+        <div class="container">
+            <div class="hero-grid">
+                <!-- Photo -->
+                <div class="hero-photo">
+                    <div class="photo-glow"></div>
+                    <div class="photo-wrapper">
+                        <img src="images/valeria-photo.jpg" alt="ValeriaVZG" class="hero-img">
+                    </div>
+                </div>
+
+                <!-- Info -->
+                <div class="hero-info">
+                    <div class="logo-wrapper">
+                        <img src="images/valeria-logo.png" alt="ValeriaVZG Logo" class="hero-logo">
+                    </div>
+                    
+                    <h1 class="hero-title">VALEVZG</h1>
+                    
+                    <p class="hero-subtitle" data-es="Bailarina & Creadora de Contenido" data-en="Dancer & Content Creator">
+                        Bailarina & Creadora de Contenido
+                    </p>
+
+                    <!-- Social Links -->
+                    <div class="social-links">
+                        <a href="https://www.tiktok.com/discover/valevzg" target="_blank" rel="noopener noreferrer" class="social-btn tiktok">
+                            <i data-lucide="music"></i>
+                        </a>
+                        <a href="https://www.instagram.com/valevzg_/" target="_blank" rel="noopener noreferrer" class="social-btn instagram">
+                            <i data-lucide="instagram"></i>
+                        </a>
+                        <a href="https://www.youtube.com/@vleriavzz" target="_blank" rel="noopener noreferrer" class="social-btn youtube">
+                            <i data-lucide="youtube"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Stats Section -->
+    <section id="stats" class="stats">
+        <div class="container">
+            <h2 class="section-title" data-es="ALCANCE Y ENGAGEMENT" data-en="REACH & ENGAGEMENT">
+                ALCANCE Y ENGAGEMENT
+            </h2>
+            
+            <div class="stats-grid">
+                <!-- TikTok -->
+                <div class="stat-card">
+                    <div class="stat-icon tiktok">
+                        <i data-lucide="music"></i>
+                    </div>
+                    <div class="stat-content">
+                        <div class="stat-number">1.7M</div>
+                        <div class="stat-label" data-es="Seguidores" data-en="Followers">Seguidores</div>
+                        <div class="stat-platform">TikTok</div>
+                    </div>
+                </div>
+
+                <!-- Instagram -->
+                <div class="stat-card">
+                    <div class="stat-icon instagram">
+                        <i data-lucide="instagram"></i>
+                    </div>
+                    <div class="stat-content">
+                        <div class="stat-number">1.3M</div>
+                        <div class="stat-label" data-es="Seguidores" data-en="Followers">Seguidores</div>
+                        <div class="stat-platform">Instagram</div>
+                    </div>
+                </div>
+
+                <!-- YouTube -->
+                <div class="stat-card">
+                    <div class="stat-icon youtube">
+                        <i data-lucide="youtube"></i>
+                    </div>
+                    <div class="stat-content">
+                        <div class="stat-number">730K</div>
+                        <div class="stat-label" data-es="Suscriptores" data-en="Subscribers">Suscriptores</div>
+                        <div class="stat-platform">YouTube</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title" data-es="SOBRE VALEVZG" data-en="ABOUT VALEVZG">
+                SOBRE VALEVZG
+            </h2>
+            
+            <div class="about-content">
+                <p class="about-text" 
+                   data-es="Bailarina vibrante y sensación viral que ha conquistado Instagram y TikTok con sus coreografías electrizantes y energía contagiosa. Sus videos combinan ritmos latinos con un toque contemporáneo, cautivando a miles de seguidores en la comunidad digital de danza."
+                   data-en="Vibrant dancer and viral sensation who has conquered Instagram and TikTok with electrifying choreographies and contagious energy. Her videos combine Latin rhythms with a contemporary twist, captivating thousands of followers in the digital dance community.">
+                    Bailarina vibrante y sensación viral que ha conquistado Instagram y TikTok con sus coreografías electrizantes y energía contagiosa. Sus videos combinan ritmos latinos con un toque contemporáneo, cautivando a miles de seguidores en la comunidad digital de danza.
+                </p>
+            </div>
+
+            <!-- Style Tags -->
+            <div class="style-tags">
+                <div class="style-tag">
+                    <i data-lucide="sparkles"></i>
+                    <span data-es="Divertido" data-en="Fun">Divertido</span>
+                </div>
+                <div class="style-tag">
+                    <i data-lucide="zap"></i>
+                    <span data-es="Energético" data-en="Energetic">Energético</span>
+                </div>
+                <div class="style-tag">
+                    <i data-lucide="heart"></i>
+                    <span data-es="Lifestyle" data-en="Lifestyle">Lifestyle</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="container">
+            <h2 class="section-title" data-es="SERVICIOS DE COLABORACIÓN" data-en="COLLABORATION SERVICES">
+                SERVICIOS DE COLABORACIÓN
+            </h2>
+            
+            <div class="services-grid">
+                <!-- Sponsored Posts -->
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i data-lucide="image"></i>
+                    </div>
+                    <h3 class="service-title" data-es="Posts Patrocinados" data-en="Sponsored Posts">Posts Patrocinados</h3>
+                    <p class="service-desc" 
+                       data-es="Contenido de baile auténtico que integra tu marca de forma natural"
+                       data-en="Authentic dance content that integrates your brand naturally">
+                        Contenido de baile auténtico que integra tu marca de forma natural
+                    </p>
+                </div>
+
+                <!-- Choreography -->
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i data-lucide="video"></i>
+                    </div>
+                    <h3 class="service-title" data-es="Coreografías de Marca" data-en="Brand Choreography">Coreografías de Marca</h3>
+                    <p class="service-desc" 
+                       data-es="Rutinas personalizadas que hacen viral tu producto o campaña"
+                       data-en="Custom routines that make your product or campaign go viral">
+                        Rutinas personalizadas que hacen viral tu producto o campaña
+                    </p>
+                </div>
+
+                <!-- Events -->
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i data-lucide="users"></i>
+                    </div>
+                    <h3 class="service-title" data-es="Presentaciones en Vivo" data-en="Live Performances">Presentaciones en Vivo</h3>
+                    <p class="service-desc" 
+                       data-es="Apariciones en eventos, lanzamientos y activaciones de marca"
+                       data-en="Appearances at events, launches and brand activations">
+                        Apariciones en eventos, lanzamientos y activaciones de marca
+                    </p>
+                </div>
+
+                <!-- Content Creation -->
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i data-lucide="camera"></i>
+                    </div>
+                    <h3 class="service-title" data-es="Creación de Contenido" data-en="Content Creation">Creación de Contenido</h3>
+                    <p class="service-desc" 
+                       data-es="Videos de alta calidad para tus plataformas digitales"
+                       data-en="High-quality videos for your digital platforms">
+                        Videos de alta calidad para tus plataformas digitales
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title" data-es="TRABAJEMOS JUNTOS" data-en="LET'S WORK TOGETHER">
+                TRABAJEMOS JUNTOS
+            </h2>
+            
+            <div class="contact-content">
+                <p class="contact-intro" 
+                   data-es="¿Interesado en una colaboración? Completa el formulario y nos pondremos en contacto contigo."
+                   data-en="Interested in a collaboration? Fill out the form and we'll get in touch with you.">
+                    ¿Interesado en una colaboración? Completa el formulario y nos pondremos en contacto contigo.
+                </p>
+
+                <form id="contact-form" class="contact-form" action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+                    <div class="form-group">
+                        <label for="name" data-es="Nombre" data-en="Name">Nombre</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email" data-es="Email" data-en="Email">Email</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="company" data-es="Empresa" data-en="Company">Empresa</label>
+                        <input type="text" id="company" name="company">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="message" data-es="Mensaje" data-en="Message">Mensaje</label>
+                        <textarea id="message" name="message" rows="5" required></textarea>
+                    </div>
+
+                    <button type="submit" class="submit-btn" data-es="Enviar Mensaje" data-en="Send Message">
+                        Enviar Mensaje
+                    </button>
+                </form>
+
+                <div class="contact-email">
+                    <i data-lucide="mail"></i>
+                    <a href="mailto:admin@trueconext.com">admin@trueconext.com</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 ValeriaVZG - <span data-es="Representada por" data-en="Represented by">Representada por</span> <a href="https://trueconext.com" target="_blank">TrueConext</a></p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
 </html>

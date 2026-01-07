@@ -1,0 +1,64 @@
+═══════════════════════════════════════════════════════════
+  📸 RESUMEN: DÓNDE SUBIR TUS IMÁGENES (VERSIÓN ULTRA SIMPLE)
+═══════════════════════════════════════════════════════════
+
+🎯 QUÉ NECESITAS:
+
+2 imágenes con estos nombres EXACTOS:
+  
+  1. valeria-photo.jpg  ← Foto de Valeria bailando/posando
+  2. valeria-logo.png   ← Logo de ValeriaVZG
+  
+
+📂 DÓNDE PONERLAS:
+
+Dentro de la carpeta del proyecto, en:
+
+  valevzgmediakit/
+    └── public/  ← AQUÍ
+          ├── valeria-photo.jpg  ← Poner aquí
+          └── valeria-logo.png   ← Poner aquí
+
+
+🚀 CÓMO (2 OPCIONES):
+
+┌─────────────────────────────────────────────────┐
+│ OPCIÓN 1: En tu Computadora (Antes de GitHub)  │
+└─────────────────────────────────────────────────┘
+
+1. Descarga el proyecto de Figma Make
+2. Abre la carpeta "public"
+3. Arrastra las 2 imágenes ahí
+4. Sube todo a GitHub
+
+┌─────────────────────────────────────────────────┐
+│ OPCIÓN 2: Directamente en GitHub (Más Fácil)   │
+└─────────────────────────────────────────────────┘
+
+1. Ve a: github.com/TU-USUARIO/valevzgmediakit
+2. Click en carpeta "public"
+3. Click en "Add file" → "Upload files"
+4. Arrastra las 2 imágenes
+5. Click "Commit changes"
+
+
+✅ CHECKLIST:
+
+  [ ] Imagen 1 se llama: valeria-photo.jpg
+  [ ] Imagen 2 se llama: valeria-logo.png
+  [ ] Están en la carpeta: /public/
+  [ ] Foto pesa menos de 500KB
+  [ ] Logo pesa menos de 100KB
+
+
+📚 MÁS DETALLES:
+
+- Ver: INSTRUCCIONES-IMAGENES.md (tutorial completo)
+- Ver: COMO-SUBIR-IMAGENES-GITHUB.md (paso a paso visual)
+
+
+🆘 ¿PROBLEMAS?
+
+Envíame las imágenes y yo las subo por ti.
+
+═══════════════════════════════════════════════════════════

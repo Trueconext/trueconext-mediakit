@@ -1,0 +1,9 @@
+⚠️ IMPORTANTE: REEMPLAZAR ESTOS PLACEHOLDERS
+
+Los archivos placeholder son temporales y DEBEN ser reemplazados con las imágenes reales de ValeriaVZG.
+
+IMÁGENES NECESARIAS:
+1. valeria-photo.jpg  - Foto principal de Valeria
+2. valeria-logo.png   - Logo de ValeriaVZG
+
+Ver INSTRUCCIONES-IMAGENES.md para detalles completos.

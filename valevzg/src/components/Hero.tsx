@@ -1,4 +1,5 @@
 import { Instagram, Youtube, Music2 } from 'lucide-react';
+import { useState } from 'react';
 
 interface HeroProps {
   language: 'en' | 'es';
@@ -24,7 +25,7 @@ export function Hero({ language }: HeroProps) {
           <div className="absolute inset-0 bg-gradient-to-r from-purple-600 to-pink-600 rounded-2xl blur-xl opacity-30 group-hover:opacity-50 transition-opacity"></div>
           <div className="relative rounded-2xl overflow-hidden border-2 border-purple-500/20">
             <img
-              src="figma:asset/image1.png"
+              src="/valeria-photo.jpg"
               alt="ValeriaVZG"
               className="w-full h-auto object-cover"
             />
@@ -35,7 +36,7 @@ export function Hero({ language }: HeroProps) {
         <div className="text-center md:text-left space-y-4">
           <div>
             <img
-              src="figma:asset/image2.png"
+              src="/valeria-logo.png"
               alt="ValeriaVZG Logo"
               className="h-16 mx-auto md:mx-0"
             />
