@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>✅ Tutorial: 3 Pasos para Publicar</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif;
+            background: linear-gradient(135deg, #1a0033 0%, #0a0015 100%);
+            color: #fff;
+            padding: 40px 20px;
+            line-height: 1.6;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        h1 {
+            text-align: center;
+            font-size: 3em;
+            margin-bottom: 20px;
+            background: linear-gradient(135deg, #a855f7, #ec4899);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+        .intro {
+            text-align: center;
+            font-size: 1.3em;
+            color: #c084fc;
+            margin-bottom: 50px;
+            padding: 20px;
+            background: rgba(168, 85, 247, 0.1);
+            border-radius: 15px;
+        }
+        .step {
+            background: rgba(255, 255, 255, 0.05);
+            border: 2px solid #a855f7;
+            border-radius: 20px;
+            padding: 30px;
+            margin-bottom: 30px;
+            position: relative;
+        }
+        .step-number {
+            position: absolute;
+            top: -20px;
+            left: 30px;
+            background: linear-gradient(135deg, #a855f7, #ec4899);
+            color: #fff;
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.5em;
+            font-weight: bold;
+        }
+        .step h2 {
+            color: #ec4899;
+            margin-bottom: 15px;
+            margin-top: 20px;
+        }
+        .step p {
+            color: #d1d5db;
+            margin-bottom: 15px;
+            font-size: 1.1em;
+        }
+        .file-tree {
+            background: #000;
+            color: #0f0;
+            padding: 20px;
+            border-radius: 10px;
+            font-family: 'Courier New', monospace;
+            margin: 15px 0;
+            overflow-x: auto;
+        }
+        .highlight {
+            background: rgba(236, 72, 153, 0.2);
+            padding: 3px 8px;
+            border-radius: 5px;
+            color: #ec4899;
+            font-weight: bold;
+        }
+        .success {
+            background: rgba(34, 197, 94, 0.1);
+            border: 2px solid #22c55e;
+            padding: 20px;
+            border-radius: 15px;
+            margin-top: 40px;
+            text-align: center;
+        }
+        .success h2 {
+            color: #22c55e;
+            margin-bottom: 15px;
+        }
+        ul {
+            margin-left: 20px;
+            margin-bottom: 15px;
+        }
+        li {
+            margin-bottom: 10px;
+            color: #c084fc;
+        }
+        .warning {
+            background: rgba(239, 68, 68, 0.1);
+            border-left: 4px solid #ef4444;
+            padding: 15px;
+            margin: 15px 0;
+            border-radius: 5px;
+        }
+        .tip {
+            background: rgba(59, 130, 246, 0.1);
+            border-left: 4px solid #3b82f6;
+            padding: 15px;
+            margin: 15px 0;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🚀 3 Pasos Super Simples</h1>
+        
+        <div class="intro">
+            <strong>¡Sin terminal, sin comandos, sin complicaciones!</strong><br>
+            Solo tu navegador y 10 minutos.
+        </div>
+
+        <!-- STEP 1 -->
+        <div class="step">
+            <div class="step-number">1</div>
+            <h2>📸 Agregar Tus Imágenes</h2>
+            
+            <p>Necesitas <strong>2 imágenes</strong> en la carpeta <span class="highlight">images/</span></p>
+            
+            <div class="file-tree">
+valevzgmediakit/
+├── index.html
+├── styles.css
+├── script.js
+└── images/
+    ├── valeria-photo.jpg  ← TU FOTO (800x1000px)
+    └── valeria-logo.png   ← TU LOGO (500x100px)
+            </div>
+
+            <div class="warning">
+                ⚠️ <strong>IMPORTANTE:</strong> Los nombres deben ser EXACTOS:<br>
+                • <code>valeria-photo.jpg</code> (minúsculas)<br>
+                • <code>valeria-logo.png</code> (minúsculas)
+            </div>
+
+            <div class="tip">
+                💡 <strong>TIP:</strong> Optimiza las imágenes en <a href="https://tinypng.com" target="_blank" style="color: #3b82f6;">TinyPNG.com</a> antes de subirlas.
+            </div>
+        </div>
+
+        <!-- STEP 2 -->
+        <div class="step">
+            <div class="step-number">2</div>
+            <h2>🌐 Subir a GitHub</h2>
+            
+            <p><strong>Paso a paso:</strong></p>
+            
+            <ul>
+                <li>Ve a <a href="https://github.com" target="_blank" style="color: #a855f7;">github.com</a> e inicia sesión</li>
+                <li>Click en el botón verde <span class="highlight">"New"</span></li>
+                <li>Nombre del repositorio: <span class="highlight">valevzgmediakit</span></li>
+                <li>Visibilidad: <span class="highlight">Public</span> ✅ (debe ser público)</li>
+                <li>Click en <span class="highlight">"Create repository"</span></li>
+                <li>En la página nueva, busca <span class="highlight">"uploading an existing file"</span></li>
+                <li>Arrastra TODOS los archivos del proyecto</li>
+                <li>Click en <span class="highlight">"Commit changes"</span></li>
+            </ul>
+
+            <div class="tip">
+                💡 <strong>TIP:</strong> Selecciona todos los archivos a la vez (incluyendo la carpeta images) y arrástralos juntos.
+            </div>
+        </div>
+
+        <!-- STEP 3 -->
+        <div class="step">
+            <div class="step-number">3</div>
+            <h2>🎉 Activar GitHub Pages</h2>
+            
+            <p><strong>Último paso:</strong></p>
+            
+            <ul>
+                <li>En tu repositorio, click en <span class="highlight">"Settings"</span> (arriba)</li>
+                <li>En el menú izquierdo, click en <span class="highlight">"Pages"</span></li>
+                <li>En "Source", selecciona:</li>
+                <ul>
+                    <li>Branch: <span class="highlight">main</span></li>
+                    <li>Folder: <span class="highlight">/ (root)</span></li>
+                </ul>
+                <li>Click en <span class="highlight">"Save"</span></li>
+                <li>⏱️ <strong>Espera 2-5 minutos</strong></li>
+                <li>¡Listo! Verás tu URL</li>
+            </ul>
+
+            <div class="success">
+                <h2>🎊 ¡Tu Sitio Está en Vivo!</h2>
+                <p style="font-size: 1.2em; margin-top: 15px;">
+                    <code style="background: rgba(0,0,0,0.3); padding: 10px 20px; border-radius: 8px; display: inline-block;">
+                        https://TU-USUARIO.github.io/valevzgmediakit/
+                    </code>
+                </p>
+                <p style="margin-top: 15px; color: #22c55e;">
+                    Abre esa URL en tu navegador para ver el media kit funcionando 🚀
+                </p>
+            </div>
+        </div>
+
+        <!-- BONUS -->
+        <div class="step" style="border-color: #ec4899;">
+            <div class="step-number" style="background: #ec4899;">💎</div>
+            <h2>🌐 BONUS: Usar Tu Dominio (trueconext.com)</h2>
+            
+            <p><strong>Configurar subdominio:</strong></p>
+            
+            <ul>
+                <li>En tu proveedor de DNS (donde compraste el dominio), agrega:</li>
+                <ul>
+                    <li>Tipo: <span class="highlight">CNAME</span></li>
+                    <li>Nombre: <span class="highlight">valevzgmediakit</span></li>
+                    <li>Valor: <span class="highlight">TU-USUARIO.github.io</span></li>
+                </ul>
+                <li>En GitHub Pages Settings:</li>
+                <ul>
+                    <li>Custom domain: <span class="highlight">valevzgmediakit.trueconext.com</span></li>
+                    <li>Click "Save"</li>
+                </ul>
+                <li>⏱️ <strong>Espera 15-30 minutos</strong> para propagación DNS</li>
+                <li>¡Listo! Tu sitio estará en: <span class="highlight">valevzgmediakit.trueconext.com</span></li>
+            </ul>
+
+            <div class="tip">
+                💡 <strong>NOTA:</strong> Para usar <code>trueconext.com/valevzgmediakit</code> (con path), necesitas configuración adicional en tu servidor. Es más simple usar un subdominio.
+            </div>
+        </div>
+
+        <!-- FOOTER -->
+        <div style="text-align: center; margin-top: 60px; padding: 30px; border-top: 2px solid rgba(168, 85, 247, 0.3);">
+            <p style="font-size: 1.5em; margin-bottom: 15px;">🎉 ¡Eso es todo!</p>
+            <p style="color: #c084fc;">
+                Ahora tienes un media kit profesional en vivo 24/7<br>
+                Sin necesidad de mantener tu computadora prendida
+            </p>
+            <p style="margin-top: 30px; color: #9333ea; font-size: 0.9em;">
+                © 2025 TrueConext | ValeriaVZG Media Kit
+            </p>
+        </div>
+    </div>
+</body>
+</html>

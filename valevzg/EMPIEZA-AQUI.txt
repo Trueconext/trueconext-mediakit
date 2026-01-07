@@ -1,0 +1,115 @@
+═══════════════════════════════════════════════════════════
+  👋 EMPIEZA AQUÍ - GUÍA ULTRA SIMPLE
+═══════════════════════════════════════════════════════════
+
+✅ Este proyecto es 100% HTML - ¡NO necesitas instalar NADA!
+
+═══════════════════════════════════════════════════════════
+  📸 PASO 1: Agregar Imágenes (2 minutos)
+═══════════════════════════════════════════════════════════
+
+Pon estas 2 imágenes en la carpeta "images":
+
+  ✓ valeria-photo.jpg  (foto de Valeria)
+  ✓ valeria-logo.png   (logo)
+
+Los nombres deben ser EXACTOS (minúsculas).
+
+═══════════════════════════════════════════════════════════
+  🌐 PASO 2: Subir a GitHub (5 minutos)
+═══════════════════════════════════════════════════════════
+
+1. Ve a: github.com
+2. Crea nuevo repositorio: "valevzgmediakit" (público)
+3. Arrastra TODOS los archivos del proyecto
+4. Click "Commit changes"
+
+═══════════════════════════════════════════════════════════
+  🎉 PASO 3: Activar GitHub Pages (3 minutos)
+═══════════════════════════════════════════════════════════
+
+1. En tu repositorio → Settings → Pages
+2. Source: "main" branch, "/ (root)" folder
+3. Click "Save"
+4. ⏱️ Espera 5 minutos
+5. ¡Listo! Tu sitio estará en:
+   https://TU-USUARIO.github.io/valevzgmediakit/
+
+═══════════════════════════════════════════════════════════
+  📚 TUTORIALES DETALLADOS
+═══════════════════════════════════════════════════════════
+
+👉 ABRE EN TU NAVEGADOR:
+   • TUTORIAL-SIMPLE.html  (guía visual paso a paso)
+
+👉 LEE ESTOS ARCHIVOS:
+   • README.md  (documentación completa)
+   • images/README.txt  (info sobre imágenes)
+
+═══════════════════════════════════════════════════════════
+  📁 ARCHIVOS DEL PROYECTO
+═══════════════════════════════════════════════════════════
+
+Solo necesitas estos 4 archivos/carpetas:
+
+  ✓ index.html       (página web)
+  ✓ styles.css       (diseño)
+  ✓ script.js        (funcionalidad)
+  ✓ images/          (tus imágenes)
+
+Sube TODO a GitHub (arrastra y suelta).
+
+═══════════════════════════════════════════════════════════
+  ✨ CARACTERÍSTICAS
+═══════════════════════════════════════════════════════════
+
+✅ Bilingüe (ES/EN con toggle)
+✅ Fondo interactivo (sigue cursor)
+✅ Responsive (móvil y desktop)
+✅ Stats reales de ValeriaVZG
+✅ Formulario de contacto
+✅ Diseño dark/morado (TrueConext style)
+
+═══════════════════════════════════════════════════════════
+  🆘 ¿PROBLEMAS?
+═══════════════════════════════════════════════════════════
+
+• Las imágenes no se ven
+  → Verifica nombres exactos en carpeta "images"
+
+• El sitio no carga
+  → Espera 5 minutos más después de activar Pages
+
+• Necesitas ayuda
+  → Abre TUTORIAL-SIMPLE.html en tu navegador
+
+═══════════════════════════════════════════════════════════
+  💎 VENTAJAS DE ESTA VERSIÓN
+═══════════════════════════════════════════════════════════
+
+❌ NO necesitas:
+  • Node.js
+  • npm install
+  • Terminal
+  • Comandos
+  • Build tools
+
+✅ SOLO necesitas:
+  • Navegador web
+  • Cuenta GitHub (gratis)
+  • Tus 2 imágenes
+
+═══════════════════════════════════════════════════════════
+  🎯 TL;DR (Resumen Ultra Corto)
+═══════════════════════════════════════════════════════════
+
+1. Agrega 2 imágenes a carpeta "images"
+2. Sube todo a GitHub (arrastrar archivos)
+3. Activa GitHub Pages en Settings
+4. ¡Listo! 🎉
+
+═══════════════════════════════════════════════════════════
+
+¡Éxito! 🚀💜
+
+© 2025 TrueConext - ValeriaVZG Media Kit
